@@ -1,0 +1,10 @@
+#	Android	fstab
+#	<src>	<mnt_point>
+#	The	filesystem
+#	specify	MF_CHECK,
+/efs	ext4	/dev/block/mmcblk0p3
+/boot	emmc	/dev/block/mmcblk0p8
+/cache	ext4	/dev/block/mmcblk0p12
+/system	ext4	/dev/block/mmcblk0p13
+/data	ext4	/dev/block/mmcblk0p16
+/sdcard	auto	/dev/block/mmcblk1p1
