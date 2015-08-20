@@ -21,7 +21,7 @@
     <!--whether the device supports emulated storage-->
     <bool name="support_emulated_storage">true</bool>
     <!--whether the device supports internal sdcard-->
-    <bool name="support_internal_sdcard">true</bool>
+    <bool name="support_internal_sdcard">false</bool>
     <!--whether the device is mediatek-->
     <bool name="is_mediatek">false</bool>
     <!--whether the device supports erase external storage-->

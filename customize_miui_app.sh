@@ -55,7 +55,7 @@ fi
 
 if [ $1 = "miuisystem" ];then
 	applyPatch $1 $2
-    cp $1/t03g.xml $2/assets/device_features/
+    cp $1/t0ltevzw.xml $2/assets/device_features/
 fi
 
 if [ $1 = "TeleService" ];then
