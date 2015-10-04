@@ -1,8 +1,8 @@
-MIUI patchrom for Samsung S3 开源说明
+MIUI patchrom for Samsung Note2 VZM 开源说明
 
-1.开源的代码由nian基于I9300 CM11.0 Final版本 ROM适配MIUI6 v6-kitkat分支的代码
+1.开源的代码由nian基于I605 CM11.0 Final版本 ROM适配MIUI7 v7-kitkat分支的代码
 
-2.目前MIUI官网的MIUI for GT-I9300 合作版是我发布在MIUI官网的MIUI
+2.目前MIUI官网的MIUI for GT-I605n是我发布在Baidu Yun的MIUI
 
 3.如果你对本项目感兴趣或者有什么意见或建议,欢迎联系nianxia1007@gmail.com
 
@@ -26,15 +26,15 @@ $ chmod a+x ~/bin/repo
 
 $ mkdir MIUI && cd MIUI
 
-$ repo init -u git://github.com/MiCode/patchrom.git -b v6-kitkat
+$ repo init -u git://github.com/MiCode/patchrom.git -b v7-kitkat
 
 $ repo sync -j4
 
-$ git clone https://github.com/nian0114/patchrom_miui_m0
+$ git clone https://github.com/nian0114/patchrom_miui_i605
 
 4.编译MIUI
 
-$ source build/envsetup.sh && cd m0
+$ source build/envsetup.sh && cd i605
 
 $ make fullota
 
